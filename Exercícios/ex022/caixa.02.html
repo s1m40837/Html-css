@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: chocolate;
+        }
+        header {
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color:violet ;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.707);
+
+
+        }
+        nav > a:hover {
+            color:violet ;
+            padding: 3px;
+            font-weight: bold;
+            margin-right: 30px;
+            text-decoration: none;
+
+        }
+        main {
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: rgb(44, 86, 123);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            padding: 4px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos"></section>
+    <section id="notícias"></section>
+    <article>
+        <h2>Notícia sobre o Brasil</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste cumque recusandae, cupiditate modi atque aliquam vel at, quam amet, nesciunt mollitia facilis asperiores ipsa officiis laborum est reprehenderit nam nulla!</p>
+        <aside>
+            <p>Artigo escrito por José da Silva</p>
+        </aside>
+    </article>
+        <footer>
+            <p>Desenvolvido por  Simão Tech</p>
+
+        </footer>
+    </main>
+    <div id="bola"></div>
+</body>
+</html>

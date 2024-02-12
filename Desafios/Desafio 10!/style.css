@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype'), url('idroid.otf') format('trutype');
+}
+h1.teste {
+     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+     font-family: 'Bebas Neue', sans-serif;
+     color: white; 
+     text-align: center;
+}
+p.teste {
+    color: white;
+    
+}
+h2 {
+    color: #063D1E;
+    font-family: 'idroid';
+}
+  h3 {
+    background-color: #c5ebd6;
+    color: #063D1E;
+    font-family: 'idroid';
+}
+header {
+    background-image: linear-gradient(to top,#063D1E, #3DDC84);
+    margin-top: ;
+    text-align: center;
+    
+}
+main {
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 5px 5px 3px #011a1a47;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    max-width: 850px;
+    min-width: 450px;
+}
+aside {
+    margin: auto;
+    background-color: #063D1E;
+}
+nav {
+    background-color: #063D1E;
+    padding: 3px;
+}
+header > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    text-align: right;
+    margin-right: 30px;
+}
+header > a :hover {
+    text-decoration: underline;
+
+}
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+    
+
